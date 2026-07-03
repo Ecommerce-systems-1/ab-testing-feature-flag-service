@@ -1,4 +1,5 @@
-from services.results import ResultsService, VariantResult
+import pytest
+from app.services.results import ResultsService, VariantResult
 
 def test_conversion_rate_calculation():
     svc = ResultsService()

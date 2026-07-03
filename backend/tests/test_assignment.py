@@ -1,4 +1,4 @@
-from services.assignment import AssignmentService
+from app.services.assignment import AssignmentService
 
 EXP = {"id": 42, "variants": ["control", "treatment"], "traffic_split": [50, 50]}
 

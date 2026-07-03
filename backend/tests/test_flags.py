@@ -1,4 +1,4 @@
-from services.flags import FlagService
+from app.services.flags import FlagService
 
 def test_disabled_flag_returns_false():
     flag = {"name": "new_checkout", "enabled": 0, "rollout_pct": 100}
